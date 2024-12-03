@@ -28,3 +28,48 @@ public class Solution {
         
     }
 }
+
+========================================================
+
+ANAGRAM CODE
+    static boolean isAnagram(String a, String b) {
+       int arr[];
+        int arr1[];
+        int x=0;
+        String aa = a.toUpperCase();
+        String bb = b.toUpperCase();
+        int n =aa.length();
+        int n1 =bb.length();
+      for(int i=0;i<n;i++){
+          arr[i]=aa.charAt(i);
+      }
+        for(int j=0;j<n1;j++){
+          arr1[j]=bb.charAt(j);
+      }
+        Arrays.sort(arr);
+        Arrays.sort(arr1);
+    if(n!=n1){
+        return false;
+    }else{
+        for(int k =0;k<n;k++){
+        if(arr[k]==arr1[k]){
+            x++;
+        }
+            
+        }
+        if(x==n){
+            return true;
+        }
+    }
+        
+    }
+  public static void main(String[] args) {
+    
+        Scanner scan = new Scanner(System.in);
+        String a = scan.next();
+        String b = scan.next();
+        scan.close();
+        boolean ret = isAnagram(a, b);
+        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+    }
+}
