@@ -1,4 +1,6 @@
-### 3SUM
+3SUM
+
+
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>>result = new ArrayList<>();
@@ -126,4 +128,70 @@ class Solution {
     }
 }
 ===================================================
+
+
+
+
+
+
+
+
+
+ARRAY
+	
+1. 3Sum
+•	Problem: Given an integer array nums, return all unique triplets [nums[i], nums[j], nums[k]] such that i != j != k and nums[i] + nums[j] + nums[k] == 0.
+•	Difficulty: Medium
+•	Link: 3Sum
+•	Concepts Tested: Sorting, Two-pointer technique, Hashing
+2. Subarray Sum Equals K
+•	Problem: Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
+•	Difficulty: Medium
+•	Link: Subarray Sum Equals K
+•	Concepts Tested: Prefix Sum, HashMap, Sliding Window
+3. Product of Array Except Self
+•	Problem: Given an array nums of n integers where n > 1, return an array such that each element at index i is the product of all the numbers in the array except the one at i.
+•	Difficulty: Medium
+•	Link: Product of Array Except Self
+•	Concepts Tested: Prefix and Suffix Arrays, Division (if allowed), Two-pass solution
+4. Maximum Subarray (Kadane's Algorithm)
+•	Problem: Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+•	Difficulty: Medium
+•	Link: Maximum Subarray
+•	Concepts Tested: Dynamic Programming, Kadane's Algorithm
+5. Container With Most Water
+•	Problem: Given n non-negative integers a1, a2, ..., an where each represents a point at coordinate (i, ai), find two lines that together with the x-axis form a container, such that the container contains the most water.
+•	Difficulty: Medium
+•	Link: Container With Most Water
+•	Concepts Tested: Two-pointer technique, Greedy Approach
+
+STRING
+1. Longest Substring Without Repeating Characters
+•	Problem: Given a string s, find the length of the longest substring without repeating characters.
+•	Difficulty: Medium
+•	Link: Longest Substring Without Repeating Characters
+•	Concepts Tested: Sliding window, HashMap, Two pointers
+2. Valid Anagram
+•	Problem: Given two strings s and t, return true if t is an anagram of s and false otherwise.
+•	Difficulty: Medium
+•	Link: Valid Anagram
+•	Concepts Tested: HashMap, Sorting, Frequency count
+3. Group Anagrams
+•	Problem: Given an array of strings, group the anagrams together. You can return the answer in any order.
+•	Difficulty: Medium
+•	Link: Group Anagrams
+•	Concepts Tested: Hashing, Sorting, HashMap
+4. Longest Palindromic Substring
+•	Problem: Given a string s, return the longest palindromic substring in s.
+•	Difficulty: Medium
+•	Link: Longest Palindromic Substring
+•	Concepts Tested: Dynamic Programming, Expand Around Center, Sliding window
+5. String to Integer (atoi)
+•	Problem: Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer, handling leading whitespace, sign, and numeric characters while ignoring non-numeric characters.
+•	Difficulty: Medium
+•	Link: String to Integer (atoi)
+•	Concepts Tested: String manipulation, Handling edge cases, Handling overflow and underflow
+
+
+
 
